@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="fill_parent"
+    android:background="#47a74b"
+    android:id="@+id/FlyOutMenu"
+    android:padding="4dp">
+    <refractored.controls.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:paddingTop="16dp"
+        android:layout_width="72.0dp"
+        android:layout_height="72.0dp"
+        android:layout_gravity="center"
+        android:id="@+id/navheader_userimage"
+        android:src="@drawable/profile_img"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#000000" />
+    <TextView
+        android:text="@string/UserName"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_gravity="center"
+        android:textColor="#fff8f8f8" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:id="@+id/view1"
+        android:background="#ffc1c1c1"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp" />
+<!--1-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:id="@+id/LinearHome">
+        <ImageView
+            android:src="@drawable/home"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView13" />
+        <TextView
+            android:text="@string/Home"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tHome"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:textColor="#fff8f8f8" />
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:id="@+id/view2"
+        android:background="#abe4e4e4"
+        android:layout_gravity="center"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="14dp" />
+<!--2-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:tag="@string/CashFlow"
+        android:id="@+id/LinearCashFlow"
+        android:layout_marginLeft="8dp">
+        <ImageView
+            android:src="@drawable/cashflow"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView5" />
+        <TextView
+            android:text="@string/CashFlow"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tcashFlow"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:textColor="#fff8f8f8" />
+    </LinearLayout>
+<!--3-->
+<!--4-->
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:id="@+id/view5"
+        android:background="#abe4e4e4"
+        android:layout_gravity="center"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="14dp" />
+<!--5-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:id="@+id/LinearLoans"
+        android:tag="@string/Loans"
+        android:layout_marginLeft="8dp">
+        <ImageView
+            android:src="@drawable/loans"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView8" />
+        <TextView
+            android:text="@string/Loans"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:textColor="#fff8f8f8" />
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:id="@+id/view6"
+        android:background="#abe4e4e4"
+        android:layout_gravity="center"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="14dp" />
+<!--6-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:tag="@string/Assets"
+        android:layout_height="40dp"
+        android:id="@+id/LinearAssets"
+        android:layout_marginLeft="8dp">
+        <ImageView
+            android:src="@drawable/assets"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView9" />
+        <TextView
+            android:text="@string/Assets"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:textColor="#fff8f8f8" />
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:id="@+id/view7"
+        android:background="#abe4e4e4"
+        android:layout_gravity="center"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="14dp" />
+<!--7-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:tag="@string/Bills"
+        android:id="@+id/LinearBills"
+        android:layout_marginLeft="8dp">
+        <ImageView
+            android:src="@drawable/bills"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView10" />
+        <TextView
+            android:text="@string/Bills"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:textColor="#fff8f8f8" />
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:id="@+id/view8"
+        android:background="#abe4e4e4"
+        android:layout_gravity="center"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="14dp" />
+<!--8-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:tag="@string/Business"
+        android:id="@+id/LinearBusiness"
+        android:layout_marginLeft="8dp">
+        <ImageView
+            android:src="@drawable/business"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView11" />
+        <TextView
+            android:text="@string/Business"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView9"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:textColor="#fff8f8f8" />
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:id="@+id/view9"
+        android:background="#abe4e4e4"
+        android:layout_gravity="center"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="14dp" />
+<!--9-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:tag="@string/Investment"
+        android:layout_height="40dp"
+        android:id="@+id/LinearInvestment"
+        android:layout_marginLeft="8dp">
+        <ImageView
+            android:src="@drawable/investment"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView12" />
+        <TextView
+            android:text="@string/Investment"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView10"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:textColor="#fff8f8f8" />
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:id="@+id/view10"
+        android:background="#abe4e4e4"
+        android:layout_gravity="center"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="14dp" />
+<!--10-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:tag="@string/DayMax"
+        android:layout_height="40dp"
+        android:id="@+id/LinearDayMax"
+        android:layout_marginLeft="8dp">
+        <ImageView
+            android:src="@drawable/daymax"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView12" />
+        <TextView
+            android:text="DayMax"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView10"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:textColor="#fff8f8f8" />
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:id="@+id/view10"
+        android:background="#abe4e4e4"
+        android:layout_gravity="center"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="14dp" />
+</LinearLayout>

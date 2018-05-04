@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/item1"
+        android:title="@string/Sell_Asset" />
+  <item android:id="@+id/item1"
+        android:title="@string/Reg_Payment" />
+  <item android:id="@+id/item1"
+        android:title="@string/Change_Cost" />
+  <item android:id="@+id/item1"
+        android:title="@string/Passive_Profit" />
+  <item android:id="@+id/item1"
+        android:title="@string/Delete"/>
+
+</menu>

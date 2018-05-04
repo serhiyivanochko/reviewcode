@@ -1,0 +1,1 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"><item android:id="@+id/item1" android:title="@string/Borrow_More" /><item android:id="@+id/item1" android:title="@string/Return_Money" /></menu>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:id="@+id/FlyOutContent"
+    android:background="@color/BG">
+    <include
+        layout="@layout/TopWithoutMenu" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/background_with_shadow"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/assetsaddviewitemslayout">
+            <TextView
+                android:text="@string/Name"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4" />
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@drawable/rounded_edittext"
+                android:id="@+id/tBusinessName" />
+            <Button
+                android:text="@string/OK"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_button"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnOK" />
+            <Button
+                android:text="@string/Cancel"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_button"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnCancel" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

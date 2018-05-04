@@ -1,0 +1,567 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tools="http://schemas.android.com/tools" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/tools" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation>v24</xs:documentation>
+    <xs:documentation>18.03.2018 13:47:39</xs:documentation>
+  </xs:annotation>
+  <xs:attribute name="layout">
+    <xs:annotation>
+      <xs:documentation></xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:union memberTypes="xs:string">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="@layout/addbusinesslayout" />
+            <xs:enumeration value="@layout/assetaddchangecostlayout" />
+            <xs:enumeration value="@layout/assetsadditemlayout" />
+            <xs:enumeration value="@layout/assetsitemlayout" />
+            <xs:enumeration value="@layout/assetslayout" />
+            <xs:enumeration value="@layout/assetsmain" />
+            <xs:enumeration value="@layout/billslayout" />
+            <xs:enumeration value="@layout/billsmain" />
+            <xs:enumeration value="@layout/businesslayout" />
+            <xs:enumeration value="@layout/businessmain" />
+            <xs:enumeration value="@layout/cashflowitemlayout" />
+            <xs:enumeration value="@layout/cashflowlayout" />
+            <xs:enumeration value="@layout/cashflowmain" />
+            <xs:enumeration value="@layout/contentlayout" />
+            <xs:enumeration value="@layout/daymaxlayout" />
+            <xs:enumeration value="@layout/daymaxmain" />
+            <xs:enumeration value="@layout/givetakeloanlayout" />
+            <xs:enumeration value="@layout/insertcashflowlayout" />
+            <xs:enumeration value="@layout/insertloanslayout" />
+            <xs:enumeration value="@layout/insertpurselayout" />
+            <xs:enumeration value="@layout/invastmentitemlayout" />
+            <xs:enumeration value="@layout/investmentlayout" />
+            <xs:enumeration value="@layout/investmentmain" />
+            <xs:enumeration value="@layout/loansitemlayout" />
+            <xs:enumeration value="@layout/loanslayout" />
+            <xs:enumeration value="@layout/loansmain" />
+            <xs:enumeration value="@layout/loginlayout" />
+            <xs:enumeration value="@layout/main" />
+            <xs:enumeration value="@layout/menuitemlayout" />
+            <xs:enumeration value="@layout/menulayout" />
+            <xs:enumeration value="@layout/purseitemlayout" />
+            <xs:enumeration value="@layout/purseitems" />
+            <xs:enumeration value="@layout/simplespinneritem" />
+            <xs:enumeration value="@layout/topwithmenubutton" />
+            <xs:enumeration value="@layout/topwithoutmenu" />
+            <xs:enumeration value="@android:layout/activity_list_item" />
+            <xs:enumeration value="@android:layout/browser_link_context_header" />
+            <xs:enumeration value="@android:layout/expandable_list_content" />
+            <xs:enumeration value="@android:layout/list_content" />
+            <xs:enumeration value="@android:layout/preference_category" />
+            <xs:enumeration value="@android:layout/select_dialog_item" />
+            <xs:enumeration value="@android:layout/select_dialog_multichoice" />
+            <xs:enumeration value="@android:layout/select_dialog_singlechoice" />
+            <xs:enumeration value="@android:layout/simple_dropdown_item_1line" />
+            <xs:enumeration value="@android:layout/simple_expandable_list_item_1" />
+            <xs:enumeration value="@android:layout/simple_expandable_list_item_2" />
+            <xs:enumeration value="@android:layout/simple_gallery_item" />
+            <xs:enumeration value="@android:layout/simple_list_item_1" />
+            <xs:enumeration value="@android:layout/simple_list_item_2" />
+            <xs:enumeration value="@android:layout/simple_list_item_activated_1" />
+            <xs:enumeration value="@android:layout/simple_list_item_activated_2" />
+            <xs:enumeration value="@android:layout/simple_list_item_checked" />
+            <xs:enumeration value="@android:layout/simple_list_item_multiple_choice" />
+            <xs:enumeration value="@android:layout/simple_list_item_single_choice" />
+            <xs:enumeration value="@android:layout/simple_selectable_list_item" />
+            <xs:enumeration value="@android:layout/simple_spinner_dropdown_item" />
+            <xs:enumeration value="@android:layout/simple_spinner_item" />
+            <xs:enumeration value="@android:layout/test_list_item" />
+            <xs:enumeration value="@android:layout/two_line_list_item" />
+            <xs:enumeration value="?android:attr/dialogCustomTitleDecorLayout" />
+            <xs:enumeration value="?android:attr/dialogTitleDecorLayout" />
+            <xs:enumeration value="?android:attr/dialogTitleIconsDecorLayout" />
+            <xs:enumeration value="?android:attr/preferenceLayoutChild" />
+            <xs:enumeration value="?android:attr/textEditNoPasteWindowLayout" />
+            <xs:enumeration value="?android:attr/textEditPasteWindowLayout" />
+            <xs:enumeration value="?android:attr/textEditSideNoPasteWindowLayout" />
+            <xs:enumeration value="?android:attr/textEditSidePasteWindowLayout" />
+            <xs:enumeration value="?android:attr/textEditSuggestionContainerLayout" />
+            <xs:enumeration value="?android:attr/textEditSuggestionItemLayout" />
+            <xs:enumeration value="?android:attr/windowActionBarFullscreenDecorLayout" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:union>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="listfooter">
+    <xs:annotation>
+      <xs:documentation></xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:union memberTypes="xs:string">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="@layout/addbusinesslayout" />
+            <xs:enumeration value="@layout/assetaddchangecostlayout" />
+            <xs:enumeration value="@layout/assetsadditemlayout" />
+            <xs:enumeration value="@layout/assetsitemlayout" />
+            <xs:enumeration value="@layout/assetslayout" />
+            <xs:enumeration value="@layout/assetsmain" />
+            <xs:enumeration value="@layout/billslayout" />
+            <xs:enumeration value="@layout/billsmain" />
+            <xs:enumeration value="@layout/businesslayout" />
+            <xs:enumeration value="@layout/businessmain" />
+            <xs:enumeration value="@layout/cashflowitemlayout" />
+            <xs:enumeration value="@layout/cashflowlayout" />
+            <xs:enumeration value="@layout/cashflowmain" />
+            <xs:enumeration value="@layout/contentlayout" />
+            <xs:enumeration value="@layout/daymaxlayout" />
+            <xs:enumeration value="@layout/daymaxmain" />
+            <xs:enumeration value="@layout/givetakeloanlayout" />
+            <xs:enumeration value="@layout/insertcashflowlayout" />
+            <xs:enumeration value="@layout/insertloanslayout" />
+            <xs:enumeration value="@layout/insertpurselayout" />
+            <xs:enumeration value="@layout/invastmentitemlayout" />
+            <xs:enumeration value="@layout/investmentlayout" />
+            <xs:enumeration value="@layout/investmentmain" />
+            <xs:enumeration value="@layout/loansitemlayout" />
+            <xs:enumeration value="@layout/loanslayout" />
+            <xs:enumeration value="@layout/loansmain" />
+            <xs:enumeration value="@layout/loginlayout" />
+            <xs:enumeration value="@layout/main" />
+            <xs:enumeration value="@layout/menuitemlayout" />
+            <xs:enumeration value="@layout/menulayout" />
+            <xs:enumeration value="@layout/purseitemlayout" />
+            <xs:enumeration value="@layout/purseitems" />
+            <xs:enumeration value="@layout/simplespinneritem" />
+            <xs:enumeration value="@layout/topwithmenubutton" />
+            <xs:enumeration value="@layout/topwithoutmenu" />
+            <xs:enumeration value="@android:layout/activity_list_item" />
+            <xs:enumeration value="@android:layout/browser_link_context_header" />
+            <xs:enumeration value="@android:layout/expandable_list_content" />
+            <xs:enumeration value="@android:layout/list_content" />
+            <xs:enumeration value="@android:layout/preference_category" />
+            <xs:enumeration value="@android:layout/select_dialog_item" />
+            <xs:enumeration value="@android:layout/select_dialog_multichoice" />
+            <xs:enumeration value="@android:layout/select_dialog_singlechoice" />
+            <xs:enumeration value="@android:layout/simple_dropdown_item_1line" />
+            <xs:enumeration value="@android:layout/simple_expandable_list_item_1" />
+            <xs:enumeration value="@android:layout/simple_expandable_list_item_2" />
+            <xs:enumeration value="@android:layout/simple_gallery_item" />
+            <xs:enumeration value="@android:layout/simple_list_item_1" />
+            <xs:enumeration value="@android:layout/simple_list_item_2" />
+            <xs:enumeration value="@android:layout/simple_list_item_activated_1" />
+            <xs:enumeration value="@android:layout/simple_list_item_activated_2" />
+            <xs:enumeration value="@android:layout/simple_list_item_checked" />
+            <xs:enumeration value="@android:layout/simple_list_item_multiple_choice" />
+            <xs:enumeration value="@android:layout/simple_list_item_single_choice" />
+            <xs:enumeration value="@android:layout/simple_selectable_list_item" />
+            <xs:enumeration value="@android:layout/simple_spinner_dropdown_item" />
+            <xs:enumeration value="@android:layout/simple_spinner_item" />
+            <xs:enumeration value="@android:layout/test_list_item" />
+            <xs:enumeration value="@android:layout/two_line_list_item" />
+            <xs:enumeration value="?android:attr/dialogCustomTitleDecorLayout" />
+            <xs:enumeration value="?android:attr/dialogTitleDecorLayout" />
+            <xs:enumeration value="?android:attr/dialogTitleIconsDecorLayout" />
+            <xs:enumeration value="?android:attr/preferenceLayoutChild" />
+            <xs:enumeration value="?android:attr/textEditNoPasteWindowLayout" />
+            <xs:enumeration value="?android:attr/textEditPasteWindowLayout" />
+            <xs:enumeration value="?android:attr/textEditSideNoPasteWindowLayout" />
+            <xs:enumeration value="?android:attr/textEditSidePasteWindowLayout" />
+            <xs:enumeration value="?android:attr/textEditSuggestionContainerLayout" />
+            <xs:enumeration value="?android:attr/textEditSuggestionItemLayout" />
+            <xs:enumeration value="?android:attr/windowActionBarFullscreenDecorLayout" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:union>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="listheader">
+    <xs:annotation>
+      <xs:documentation></xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:union memberTypes="xs:string">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="@layout/addbusinesslayout" />
+            <xs:enumeration value="@layout/assetaddchangecostlayout" />
+            <xs:enumeration value="@layout/assetsadditemlayout" />
+            <xs:enumeration value="@layout/assetsitemlayout" />
+            <xs:enumeration value="@layout/assetslayout" />
+            <xs:enumeration value="@layout/assetsmain" />
+            <xs:enumeration value="@layout/billslayout" />
+            <xs:enumeration value="@layout/billsmain" />
+            <xs:enumeration value="@layout/businesslayout" />
+            <xs:enumeration value="@layout/businessmain" />
+            <xs:enumeration value="@layout/cashflowitemlayout" />
+            <xs:enumeration value="@layout/cashflowlayout" />
+            <xs:enumeration value="@layout/cashflowmain" />
+            <xs:enumeration value="@layout/contentlayout" />
+            <xs:enumeration value="@layout/daymaxlayout" />
+            <xs:enumeration value="@layout/daymaxmain" />
+            <xs:enumeration value="@layout/givetakeloanlayout" />
+            <xs:enumeration value="@layout/insertcashflowlayout" />
+            <xs:enumeration value="@layout/insertloanslayout" />
+            <xs:enumeration value="@layout/insertpurselayout" />
+            <xs:enumeration value="@layout/invastmentitemlayout" />
+            <xs:enumeration value="@layout/investmentlayout" />
+            <xs:enumeration value="@layout/investmentmain" />
+            <xs:enumeration value="@layout/loansitemlayout" />
+            <xs:enumeration value="@layout/loanslayout" />
+            <xs:enumeration value="@layout/loansmain" />
+            <xs:enumeration value="@layout/loginlayout" />
+            <xs:enumeration value="@layout/main" />
+            <xs:enumeration value="@layout/menuitemlayout" />
+            <xs:enumeration value="@layout/menulayout" />
+            <xs:enumeration value="@layout/purseitemlayout" />
+            <xs:enumeration value="@layout/purseitems" />
+            <xs:enumeration value="@layout/simplespinneritem" />
+            <xs:enumeration value="@layout/topwithmenubutton" />
+            <xs:enumeration value="@layout/topwithoutmenu" />
+            <xs:enumeration value="@android:layout/activity_list_item" />
+            <xs:enumeration value="@android:layout/browser_link_context_header" />
+            <xs:enumeration value="@android:layout/expandable_list_content" />
+            <xs:enumeration value="@android:layout/list_content" />
+            <xs:enumeration value="@android:layout/preference_category" />
+            <xs:enumeration value="@android:layout/select_dialog_item" />
+            <xs:enumeration value="@android:layout/select_dialog_multichoice" />
+            <xs:enumeration value="@android:layout/select_dialog_singlechoice" />
+            <xs:enumeration value="@android:layout/simple_dropdown_item_1line" />
+            <xs:enumeration value="@android:layout/simple_expandable_list_item_1" />
+            <xs:enumeration value="@android:layout/simple_expandable_list_item_2" />
+            <xs:enumeration value="@android:layout/simple_gallery_item" />
+            <xs:enumeration value="@android:layout/simple_list_item_1" />
+            <xs:enumeration value="@android:layout/simple_list_item_2" />
+            <xs:enumeration value="@android:layout/simple_list_item_activated_1" />
+            <xs:enumeration value="@android:layout/simple_list_item_activated_2" />
+            <xs:enumeration value="@android:layout/simple_list_item_checked" />
+            <xs:enumeration value="@android:layout/simple_list_item_multiple_choice" />
+            <xs:enumeration value="@android:layout/simple_list_item_single_choice" />
+            <xs:enumeration value="@android:layout/simple_selectable_list_item" />
+            <xs:enumeration value="@android:layout/simple_spinner_dropdown_item" />
+            <xs:enumeration value="@android:layout/simple_spinner_item" />
+            <xs:enumeration value="@android:layout/test_list_item" />
+            <xs:enumeration value="@android:layout/two_line_list_item" />
+            <xs:enumeration value="?android:attr/dialogCustomTitleDecorLayout" />
+            <xs:enumeration value="?android:attr/dialogTitleDecorLayout" />
+            <xs:enumeration value="?android:attr/dialogTitleIconsDecorLayout" />
+            <xs:enumeration value="?android:attr/preferenceLayoutChild" />
+            <xs:enumeration value="?android:attr/textEditNoPasteWindowLayout" />
+            <xs:enumeration value="?android:attr/textEditPasteWindowLayout" />
+            <xs:enumeration value="?android:attr/textEditSideNoPasteWindowLayout" />
+            <xs:enumeration value="?android:attr/textEditSidePasteWindowLayout" />
+            <xs:enumeration value="?android:attr/textEditSuggestionContainerLayout" />
+            <xs:enumeration value="?android:attr/textEditSuggestionItemLayout" />
+            <xs:enumeration value="?android:attr/windowActionBarFullscreenDecorLayout" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:union>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="listitem">
+    <xs:annotation>
+      <xs:documentation></xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:union memberTypes="xs:string">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="@layout/addbusinesslayout" />
+            <xs:enumeration value="@layout/assetaddchangecostlayout" />
+            <xs:enumeration value="@layout/assetsadditemlayout" />
+            <xs:enumeration value="@layout/assetsitemlayout" />
+            <xs:enumeration value="@layout/assetslayout" />
+            <xs:enumeration value="@layout/assetsmain" />
+            <xs:enumeration value="@layout/billslayout" />
+            <xs:enumeration value="@layout/billsmain" />
+            <xs:enumeration value="@layout/businesslayout" />
+            <xs:enumeration value="@layout/businessmain" />
+            <xs:enumeration value="@layout/cashflowitemlayout" />
+            <xs:enumeration value="@layout/cashflowlayout" />
+            <xs:enumeration value="@layout/cashflowmain" />
+            <xs:enumeration value="@layout/contentlayout" />
+            <xs:enumeration value="@layout/daymaxlayout" />
+            <xs:enumeration value="@layout/daymaxmain" />
+            <xs:enumeration value="@layout/givetakeloanlayout" />
+            <xs:enumeration value="@layout/insertcashflowlayout" />
+            <xs:enumeration value="@layout/insertloanslayout" />
+            <xs:enumeration value="@layout/insertpurselayout" />
+            <xs:enumeration value="@layout/invastmentitemlayout" />
+            <xs:enumeration value="@layout/investmentlayout" />
+            <xs:enumeration value="@layout/investmentmain" />
+            <xs:enumeration value="@layout/loansitemlayout" />
+            <xs:enumeration value="@layout/loanslayout" />
+            <xs:enumeration value="@layout/loansmain" />
+            <xs:enumeration value="@layout/loginlayout" />
+            <xs:enumeration value="@layout/main" />
+            <xs:enumeration value="@layout/menuitemlayout" />
+            <xs:enumeration value="@layout/menulayout" />
+            <xs:enumeration value="@layout/purseitemlayout" />
+            <xs:enumeration value="@layout/purseitems" />
+            <xs:enumeration value="@layout/simplespinneritem" />
+            <xs:enumeration value="@layout/topwithmenubutton" />
+            <xs:enumeration value="@layout/topwithoutmenu" />
+            <xs:enumeration value="@android:layout/activity_list_item" />
+            <xs:enumeration value="@android:layout/browser_link_context_header" />
+            <xs:enumeration value="@android:layout/expandable_list_content" />
+            <xs:enumeration value="@android:layout/list_content" />
+            <xs:enumeration value="@android:layout/preference_category" />
+            <xs:enumeration value="@android:layout/select_dialog_item" />
+            <xs:enumeration value="@android:layout/select_dialog_multichoice" />
+            <xs:enumeration value="@android:layout/select_dialog_singlechoice" />
+            <xs:enumeration value="@android:layout/simple_dropdown_item_1line" />
+            <xs:enumeration value="@android:layout/simple_expandable_list_item_1" />
+            <xs:enumeration value="@android:layout/simple_expandable_list_item_2" />
+            <xs:enumeration value="@android:layout/simple_gallery_item" />
+            <xs:enumeration value="@android:layout/simple_list_item_1" />
+            <xs:enumeration value="@android:layout/simple_list_item_2" />
+            <xs:enumeration value="@android:layout/simple_list_item_activated_1" />
+            <xs:enumeration value="@android:layout/simple_list_item_activated_2" />
+            <xs:enumeration value="@android:layout/simple_list_item_checked" />
+            <xs:enumeration value="@android:layout/simple_list_item_multiple_choice" />
+            <xs:enumeration value="@android:layout/simple_list_item_single_choice" />
+            <xs:enumeration value="@android:layout/simple_selectable_list_item" />
+            <xs:enumeration value="@android:layout/simple_spinner_dropdown_item" />
+            <xs:enumeration value="@android:layout/simple_spinner_item" />
+            <xs:enumeration value="@android:layout/test_list_item" />
+            <xs:enumeration value="@android:layout/two_line_list_item" />
+            <xs:enumeration value="?android:attr/dialogCustomTitleDecorLayout" />
+            <xs:enumeration value="?android:attr/dialogTitleDecorLayout" />
+            <xs:enumeration value="?android:attr/dialogTitleIconsDecorLayout" />
+            <xs:enumeration value="?android:attr/preferenceLayoutChild" />
+            <xs:enumeration value="?android:attr/textEditNoPasteWindowLayout" />
+            <xs:enumeration value="?android:attr/textEditPasteWindowLayout" />
+            <xs:enumeration value="?android:attr/textEditSideNoPasteWindowLayout" />
+            <xs:enumeration value="?android:attr/textEditSidePasteWindowLayout" />
+            <xs:enumeration value="?android:attr/textEditSuggestionContainerLayout" />
+            <xs:enumeration value="?android:attr/textEditSuggestionItemLayout" />
+            <xs:enumeration value="?android:attr/windowActionBarFullscreenDecorLayout" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:union>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="openDrawer">
+    <xs:annotation>
+      <xs:documentation></xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:union memberTypes="xs:string">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="end" />
+            <xs:enumeration value="left" />
+            <xs:enumeration value="right" />
+            <xs:enumeration value="start" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:union>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="text">
+    <xs:annotation>
+      <xs:documentation>Text to display.</xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:union memberTypes="xs:string">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="@string/Accepted" />
+            <xs:enumeration value="@string/Active" />
+            <xs:enumeration value="@string/Add" />
+            <xs:enumeration value="@string/Add_Asset" />
+            <xs:enumeration value="@string/Add_Business" />
+            <xs:enumeration value="@string/Add_Comission" />
+            <xs:enumeration value="@string/Add_Purse" />
+            <xs:enumeration value="@string/All" />
+            <xs:enumeration value="@string/Anuitentic" />
+            <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/April" />
+            <xs:enumeration value="@string/Assets" />
+            <xs:enumeration value="@string/At_the_End" />
+            <xs:enumeration value="@string/August" />
+            <xs:enumeration value="@string/Balance" />
+            <xs:enumeration value="@string/Base_Currency" />
+            <xs:enumeration value="@string/Bills" />
+            <xs:enumeration value="@string/Borrow_More" />
+            <xs:enumeration value="@string/Business" />
+            <xs:enumeration value="@string/Cancel" />
+            <xs:enumeration value="@string/Capital" />
+            <xs:enumeration value="@string/Card_Number" />
+            <xs:enumeration value="@string/CashFlow" />
+            <xs:enumeration value="@string/Category" />
+            <xs:enumeration value="@string/Change_Cost" />
+            <xs:enumeration value="@string/Commission" />
+            <xs:enumeration value="@string/CommissionToAccount" />
+            <xs:enumeration value="@string/Complex" />
+            <xs:enumeration value="@string/Conragent" />
+            <xs:enumeration value="@string/Count_Month" />
+            <xs:enumeration value="@string/Create_Purse" />
+            <xs:enumeration value="@string/Credit_Limit" />
+            <xs:enumeration value="@string/Creditor" />
+            <xs:enumeration value="@string/Creditors" />
+            <xs:enumeration value="@string/Currency" />
+            <xs:enumeration value="@string/Current_Price" />
+            <xs:enumeration value="@string/Date" />
+            <xs:enumeration value="@string/Date_Give" />
+            <xs:enumeration value="@string/Date_Return" />
+            <xs:enumeration value="@string/Date_Start" />
+            <xs:enumeration value="@string/Date_Write" />
+            <xs:enumeration value="@string/DateOkup" />
+            <xs:enumeration value="@string/DayEarning" />
+            <xs:enumeration value="@string/DayMax" />
+            <xs:enumeration value="@string/Days" />
+            <xs:enumeration value="@string/Debitors" />
+            <xs:enumeration value="@string/December" />
+            <xs:enumeration value="@string/Default" />
+            <xs:enumeration value="@string/Delete" />
+            <xs:enumeration value="@string/Description" />
+            <xs:enumeration value="@string/Difference" />
+            <xs:enumeration value="@string/Direction" />
+            <xs:enumeration value="@string/Discontinued" />
+            <xs:enumeration value="@string/Ear" />
+            <xs:enumeration value="@string/Earning" />
+            <xs:enumeration value="@string/Earnings" />
+            <xs:enumeration value="@string/Earnings_Purse" />
+            <xs:enumeration value="@string/EditBalance" />
+            <xs:enumeration value="@string/EndInvest" />
+            <xs:enumeration value="@string/Error" />
+            <xs:enumeration value="@string/Every_Day" />
+            <xs:enumeration value="@string/Every_Month" />
+            <xs:enumeration value="@string/Every_Year" />
+            <xs:enumeration value="@string/Exp" />
+            <xs:enumeration value="@string/Expences_Purse" />
+            <xs:enumeration value="@string/Expenses" />
+            <xs:enumeration value="@string/ExportData" />
+            <xs:enumeration value="@string/February" />
+            <xs:enumeration value="@string/Financial_status" />
+            <xs:enumeration value="@string/From_Purse" />
+            <xs:enumeration value="@string/Gain_On_Sale" />
+            <xs:enumeration value="@string/Give_Loan" />
+            <xs:enumeration value="@string/GiveEarning" />
+            <xs:enumeration value="@string/GiveExpense" />
+            <xs:enumeration value="@string/History" />
+            <xs:enumeration value="@string/Home" />
+            <xs:enumeration value="@string/HourEarning" />
+            <xs:enumeration value="@string/House_Name" />
+            <xs:enumeration value="@string/ImportData" />
+            <xs:enumeration value="@string/Insert_Earnings" />
+            <xs:enumeration value="@string/Insert_Expense" />
+            <xs:enumeration value="@string/Insert_Transfer" />
+            <xs:enumeration value="@string/Institution" />
+            <xs:enumeration value="@string/Investment" />
+            <xs:enumeration value="@string/InvestSettings" />
+            <xs:enumeration value="@string/January" />
+            <xs:enumeration value="@string/July" />
+            <xs:enumeration value="@string/June" />
+            <xs:enumeration value="@string/Loading" />
+            <xs:enumeration value="@string/Loans" />
+            <xs:enumeration value="@string/March" />
+            <xs:enumeration value="@string/May" />
+            <xs:enumeration value="@string/Month_Comission" />
+            <xs:enumeration value="@string/MonthEarning" />
+            <xs:enumeration value="@string/Name" />
+            <xs:enumeration value="@string/Name_Bank" />
+            <xs:enumeration value="@string/Next_Month" />
+            <xs:enumeration value="@string/November" />
+            <xs:enumeration value="@string/October" />
+            <xs:enumeration value="@string/OK" />
+            <xs:enumeration value="@string/Pag" />
+            <xs:enumeration value="@string/Passive_Profit" />
+            <xs:enumeration value="@string/Pay_Credit_Mounth" />
+            <xs:enumeration value="@string/Payment_Type" />
+            <xs:enumeration value="@string/Per_Qartal" />
+            <xs:enumeration value="@string/Percent" />
+            <xs:enumeration value="@string/Percent_Calculate" />
+            <xs:enumeration value="@string/Percent_Calculate_Every" />
+            <xs:enumeration value="@string/Percent_Interval" />
+            <xs:enumeration value="@string/Percent_Type" />
+            <xs:enumeration value="@string/Percents" />
+            <xs:enumeration value="@string/Price" />
+            <xs:enumeration value="@string/PriceOkup" />
+            <xs:enumeration value="@string/Pryb" />
+            <xs:enumeration value="@string/Purse" />
+            <xs:enumeration value="@string/Reg_Payment" />
+            <xs:enumeration value="@string/Remaining" />
+            <xs:enumeration value="@string/Remaining_Summ" />
+            <xs:enumeration value="@string/Return_Money" />
+            <xs:enumeration value="@string/Sell_Asset" />
+            <xs:enumeration value="@string/Sell_Date" />
+            <xs:enumeration value="@string/September" />
+            <xs:enumeration value="@string/Settings" />
+            <xs:enumeration value="@string/Simple" />
+            <xs:enumeration value="@string/Start" />
+            <xs:enumeration value="@string/Start_Date" />
+            <xs:enumeration value="@string/Status" />
+            <xs:enumeration value="@string/Success" />
+            <xs:enumeration value="@string/Summ" />
+            <xs:enumeration value="@string/Summ_Loan" />
+            <xs:enumeration value="@string/Summ_Return" />
+            <xs:enumeration value="@string/Summ_Sent_Resent" />
+            <xs:enumeration value="@string/Summ_Spys" />
+            <xs:enumeration value="@string/tab1" />
+            <xs:enumeration value="@string/tab2" />
+            <xs:enumeration value="@string/tab3" />
+            <xs:enumeration value="@string/Take_Loan" />
+            <xs:enumeration value="@string/TempOkup" />
+            <xs:enumeration value="@string/This_Month" />
+            <xs:enumeration value="@string/Time" />
+            <xs:enumeration value="@string/TimeOkup" />
+            <xs:enumeration value="@string/To_Purse" />
+            <xs:enumeration value="@string/Transfer" />
+            <xs:enumeration value="@string/Transfer_From" />
+            <xs:enumeration value="@string/Transfer_Money" />
+            <xs:enumeration value="@string/Transfer_To" />
+            <xs:enumeration value="@string/Transfers" />
+            <xs:enumeration value="@string/Twice_Year" />
+            <xs:enumeration value="@string/Type_Category" />
+            <xs:enumeration value="@string/UserName" />
+            <xs:enumeration value="@string/Vkladennya" />
+            <xs:enumeration value="@string/Vnes" />
+            <xs:enumeration value="@string/Vuv" />
+            <xs:enumeration value="@string/Withdraw" />
+            <xs:enumeration value="@string/Without_Comission" />
+            <xs:enumeration value="@string/Year_Percent" />
+            <xs:enumeration value="@android:string/cancel" />
+            <xs:enumeration value="@android:string/copy" />
+            <xs:enumeration value="@android:string/copyUrl" />
+            <xs:enumeration value="@android:string/cut" />
+            <xs:enumeration value="@android:string/defaultMsisdnAlphaTag" />
+            <xs:enumeration value="@android:string/defaultVoiceMailAlphaTag" />
+            <xs:enumeration value="@android:string/dialog_alert_title" />
+            <xs:enumeration value="@android:string/emptyPhoneNumber" />
+            <xs:enumeration value="@android:string/fingerprint_icon_content_description" />
+            <xs:enumeration value="@android:string/httpErrorBadUrl" />
+            <xs:enumeration value="@android:string/httpErrorUnsupportedScheme" />
+            <xs:enumeration value="@android:string/no" />
+            <xs:enumeration value="@android:string/ok" />
+            <xs:enumeration value="@android:string/paste" />
+            <xs:enumeration value="@android:string/search_go" />
+            <xs:enumeration value="@android:string/selectAll" />
+            <xs:enumeration value="@android:string/selectTextMode" />
+            <xs:enumeration value="@android:string/status_bar_notification_info_overflow" />
+            <xs:enumeration value="@android:string/unknownName" />
+            <xs:enumeration value="@android:string/untitled" />
+            <xs:enumeration value="@android:string/VideoView_error_button" />
+            <xs:enumeration value="@android:string/VideoView_error_text_invalid_progressive_playback" />
+            <xs:enumeration value="@android:string/VideoView_error_text_unknown" />
+            <xs:enumeration value="@android:string/VideoView_error_title" />
+            <xs:enumeration value="@android:string/yes" />
+            <xs:enumeration value="?android:attr/candidatesTextStyleSpans" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:union>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="visibility">
+    <xs:annotation>
+      <xs:documentation>Controls the initial visibility of the view.</xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:union memberTypes="xs:string">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="gone" />
+            <xs:enumeration value="invisible" />
+            <xs:enumeration value="visible" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:union>
+    </xs:simpleType>
+  </xs:attribute>
+</xs:schema>

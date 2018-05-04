@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <Jars>
+    <Jar>D:\DATA\Work\DayMax\DayMax\obj\Debug\lp\0\jl\bin\classes.jar</Jar>
+    <Jar>D:\DATA\Work\DayMax\DayMax\obj\Debug\lp\1\jl\__reference__nineoldandroids-library-2.4.0.jar</Jar>
+    <Jar>D:\DATA\Work\DayMax\DayMax\obj\Debug\lp\1\jl\bin\classes.jar</Jar>
+    <Jar>D:\DATA\Work\DayMax\DayMax\obj\Debug\lp\2\jl\bin\classes.jar</Jar>
+  </Jars>
+  <ResolvedResourceDirectories>
+    <ResolvedResourceDirectory>D:\DATA\Work\DayMax\DayMax\obj\Debug\lp\0\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\DATA\Work\DayMax\DayMax\obj\Debug\lp\1\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\DATA\Work\DayMax\DayMax\obj\Debug\lp\2\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\DATA\Work\DayMax\DayMax\obj\Debug\lp\3\jl\res</ResolvedResourceDirectory>
+  </ResolvedResourceDirectories>
+  <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>obj\Debug\lp\0\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\lp\1\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\lp\2\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\lp\3\jl\assets</ResolvedAssetDirectory>
+  </ResolvedAssetDirectories>
+  <ResolvedEnvironmentFiles />
+  <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>D:\DATA\Work\DayMax\DayMax\obj\Debug\lp\0.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\DATA\Work\DayMax\DayMax\obj\Debug\lp\1.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\DATA\Work\DayMax\DayMax\obj\Debug\lp\2.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\DATA\Work\DayMax\DayMax\obj\Debug\lp\3.stamp</ResolvedResourceDirectoryStamp>
+  </ResolvedResourceDirectoryStamps>
+</Paths>

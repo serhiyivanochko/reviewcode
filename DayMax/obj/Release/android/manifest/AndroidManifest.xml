@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="DayMax.DayMax" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="16" />
+  <application android:label="DayMax" android:theme="@style/AppTheme" android:name="android.app.Application" android:allowBackup="true">
+    <activity android:label="AssetsActivity" android:name="md5a357eca0ce33e0b0072f81b037ee0d22.AssetsActivity" />
+    <activity android:label="AssetItemActivity" android:name="md5a357eca0ce33e0b0072f81b037ee0d22.AssetItemActivity" />
+    <activity android:label="AssetAddNewActivity" android:name="md5a357eca0ce33e0b0072f81b037ee0d22.AssetAddNewActivity" />
+    <activity android:label="AssetAddChangeCostActivity" android:name="md5a357eca0ce33e0b0072f81b037ee0d22.AssetAddChangeCostActivity" />
+    <activity android:label="BillsActivity" android:name="md5a357eca0ce33e0b0072f81b037ee0d22.BillsActivity" />
+    <activity android:label="PurseItemActivity" android:name="md5a357eca0ce33e0b0072f81b037ee0d22.PurseItemActivity" />
+    <activity android:label="InsertPurseActivity" android:name="md5a357eca0ce33e0b0072f81b037ee0d22.InsertPurseActivity" />
+    <activity android:label="BusinessActivity" android:name="md5a357eca0ce33e0b0072f81b037ee0d22.BusinessActivity" />
+    <activity android:label="AddBusinessActivity" android:name="md5a357eca0ce33e0b0072f81b037ee0d22.AddBusinessActivity" />
+    <activity android:label="CashFlowActivity" android:name="md5a357eca0ce33e0b0072f81b037ee0d22.CashFlowActivity" />
+    <activity android:label="CashFlowItemActivity" android:name="md5a357eca0ce33e0b0072f81b037ee0d22.CashFlowItemActivity" />
+    <activity android:label="InsertCashFlowActivity" android:name="md5a357eca0ce33e0b0072f81b037ee0d22.InsertCashFlowActivity" />
+    <activity android:label="DayMaxActivity" android:name="md5a357eca0ce33e0b0072f81b037ee0d22.DayMaxActivity" />
+    <activity android:label="InvestmentActivity" android:name="md5a357eca0ce33e0b0072f81b037ee0d22.InvestmentActivity" />
+    <activity android:label="InvestmentItemActivity" android:name="md5a357eca0ce33e0b0072f81b037ee0d22.InvestmentItemActivity" />
+    <activity android:label="LoansActivity" android:name="md5a357eca0ce33e0b0072f81b037ee0d22.LoansActivity" />
+    <activity android:label="LoanItemActivity" android:name="md5a357eca0ce33e0b0072f81b037ee0d22.LoanItemActivity" />
+    <activity android:label="InsertLoansActivity" android:name="md5a357eca0ce33e0b0072f81b037ee0d22.InsertLoansActivity" />
+    <activity android:label="GiveTakeLoan" android:name="md5a357eca0ce33e0b0072f81b037ee0d22.GiveTakeLoanActivity" />
+    <activity android:label="LoginActivity" android:name="md5a357eca0ce33e0b0072f81b037ee0d22.LoginActivity" />
+    <activity android:label="DayMax" android:name="md5a357eca0ce33e0b0072f81b037ee0d22.MainActivity" />
+    <activity android:icon="@drawable/icon" android:noHistory="true" android:theme="@style/Splash" android:name="md5a357eca0ce33e0b0072f81b037ee0d22.SplashActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="DayMax.DayMax.mono.MonoRuntimeProvider.__mono_init__" />
+  </application>
+</manifest>

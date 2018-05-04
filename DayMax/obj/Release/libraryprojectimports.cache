@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <Jars></Jars>
+  <ResolvedResourceDirectories>
+    <ResolvedResourceDirectory>E:\Work\DayMax\DayMax\obj\Release\__library_projects__\AndroidSwipeLayout\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>E:\Work\DayMax\DayMax\obj\Release\__library_projects__\FortySevenDeg.SwipeListView\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>E:\Work\DayMax\DayMax\obj\Release\__library_projects__\Refractored.Controls.CircleImageView\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>E:\Work\DayMax\DayMax\obj\Release\__library_projects__\Refractored.FloatingActionButton\library_project_imports\res</ResolvedResourceDirectory>
+  </ResolvedResourceDirectories>
+  <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>E:\Work\DayMax\DayMax\obj\Release\__library_projects__\AndroidSwipeLayout\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>E:\Work\DayMax\DayMax\obj\Release\__library_projects__\FortySevenDeg.SwipeListView\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>E:\Work\DayMax\DayMax\obj\Release\__library_projects__\Refractored.Controls.CircleImageView\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>E:\Work\DayMax\DayMax\obj\Release\__library_projects__\Refractored.FloatingActionButton\library_project_imports\assets</ResolvedAssetDirectory>
+  </ResolvedAssetDirectories>
+  <ResolvedEnvironmentFiles />
+  <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>E:\Work\DayMax\DayMax\obj\Release\__library_projects__\AndroidSwipeLayout.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>E:\Work\DayMax\DayMax\obj\Release\__library_projects__\FortySevenDeg.SwipeListView.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>E:\Work\DayMax\DayMax\obj\Release\__library_projects__\Refractored.Controls.CircleImageView.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>E:\Work\DayMax\DayMax\obj\Release\__library_projects__\Refractored.FloatingActionButton.stamp</ResolvedResourceDirectoryStamp>
+  </ResolvedResourceDirectoryStamps>
+</Paths>

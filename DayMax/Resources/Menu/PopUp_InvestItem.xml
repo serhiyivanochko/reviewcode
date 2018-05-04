@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/item1"
+        android:title="@string/GiveEarning" />
+  <item android:id="@+id/item1"
+        android:title="@string/GiveExpense" />
+  <item android:id="@+id/item1"
+        android:title="@string/EditBalance" />
+  <item android:id="@+id/item1"
+        android:title="@string/Transfer" />
+  <item android:id="@+id/item1"
+        android:title="@string/ImportData" />
+  <item android:id="@+id/item1"
+        android:title="@string/ExportData" />
+  <item android:id="@+id/item1"
+        android:title="@string/EndInvest" />
+  <item android:id="@+id/item1"
+        android:title="@string/Settings" />
+</menu>

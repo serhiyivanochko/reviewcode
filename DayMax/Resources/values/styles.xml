@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <style name="AppTheme" parent="android:Theme.Holo.Light.NoActionBar"/>
+  <color name="BG">#EEEEEE</color>
+  <color name="TextColor">#455a64</color>
+  <color name="TableLineColor">#8492af</color>
+  <color name="ConvertColor">#8492af</color>
+  <color name="LightGreen">#a3d2a7</color>
+  <color name="DarkGreen">#43a047</color>
+    <color name="TopRowColor">#d6d6d6</color>
+  <color name="GreenColor">#47a74b</color>
+  <color name="RedColor">#b20000</color>
+  <color name="BlueInvestRect">#DFEDEE</color>
+  <color name="BlueInvestText">#60B3E5</color>
+  
+  <style name="Splash" parent ="android:Theme.Holo.Light.NoActionBar">
+    <item name="android:windowBackground">@drawable/splash_screen</item>
+    <item name="android:windowNoTitle">true</item>
+  </style>
+  
+</resources>
